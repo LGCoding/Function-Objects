@@ -32,12 +32,17 @@ class function
 {
 public:
 	function() {};
-	virtual void* operator () (linkList* arrguments) { return nullptr; };
+	virtual void* operator () (linkList* arrguments = nullptr) { return nullptr; }
 };
 
-#define funFunction(name) \
+#define Function(name, code) \
+\
 class name : public function\
 {\
 public:\
 	name() {};\
-	void* operator () (linkList* arrguments) {
+	void* operator () (linkList* arrguments = nullptr) {code return nullptr;}\
+};\
+name name;
+
+

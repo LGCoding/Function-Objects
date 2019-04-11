@@ -1,15 +1,18 @@
 #include <algorithm>
 #include <iostream>
-#include "Oct.h"
 #include "functionO.h"
+
 void test(function& fun) {
-	std::cout << "in\n";
-	fun(nullptr);
+	fun();
 }
 
 int main() {
-	funFunction(hi)
-		std::cout << "sss\n";
-	end(hi, me)
-	test(me);
+	funFunct(hi,
+		std::cout << "cool\n";
+		std::cout << "fun is over\n";
+	)
+	test(hi);
 }
+
+
+

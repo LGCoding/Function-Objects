@@ -7,7 +7,7 @@ void test(function& fun) {
 }
 
 int main() {
-	funFunct(hi,
+	Function(hi,
 		std::cout << "cool\n";
 		std::cout << "fun is over\n";
 	)
